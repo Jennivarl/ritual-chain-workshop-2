@@ -25,9 +25,10 @@ scripts/
 ## Commands
 
 ```bash
+npm install                                     # or pnpm install; both lockfiles are committed
 cp .env.example .env                            # RITUAL_PRIVATE_KEY, funded from the faucet
 
-npx hardhat test                                # 33 Solidity + 2 TypeScript tests
+npx hardhat test                                # 60 passing (56 Solidity, 4 TypeScript)
 npx hardhat test solidity                       # Solidity only
 npx hardhat build                               # compile
 

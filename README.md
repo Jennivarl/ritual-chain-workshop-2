@@ -1,5 +1,15 @@
 # Ritual Predict
 
+> **Fork note, varl999.** The starter leaves five functions open with
+> `// we'll fill this up` bodies, and those five are the ones that make the market
+> resolve itself. This fork implements them, adds the mocks and the two test suites the
+> README already describes (**60 passing**), fixes the starter test that fails on a fresh
+> clone, and builds the `web/` frontend the scripts already point at.
+> Full write up: **[SUBMISSION.md](SUBMISSION.md)**.
+>
+> Ritual Chain testnet is down, so nothing here is deployed. Everything above was checked
+> locally.
+
 A self-resolving binary prediction market on [Ritual Chain](https://docs.ritualfoundation.org).
 
 Create a market like _"Will ETH/USD be at least $4,000 when this market resolves?"_, stake native

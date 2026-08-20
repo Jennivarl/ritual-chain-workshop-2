@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0a0a0b;
+  --color-panel: #131316;
+  --color-edge: #26262c;
+  --color-muted: #8b8b96;
+  --color-yes: #16a34a;
+  --color-no: #dc2626;
+  --color-accent: #f97316;
+}
+
+html,
+body {
+  background: var(--color-ink);
+  color: #ededf0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* Tabular figures keep block numbers and pools from jittering as they tick. */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
