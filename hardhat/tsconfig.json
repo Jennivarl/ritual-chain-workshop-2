@@ -4,6 +4,9 @@
     "module": "node20",
     "target": "es2023",
     "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
     "outDir": "dist",
     "types": ["node"],
     "verbatimModuleSyntax": true
